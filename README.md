@@ -43,14 +43,19 @@ python main.py --help       # 查看帮助
 
 ## AI 解读
 
-复制配置文件并填入你的 API Key：
+本项目支持 DeepSeek API 进行智能塔罗解读。配置步骤：
 
-```bash
-cp .env.example .env
-# 编辑 .env，填入 TAROT_AI_API_KEY
-```
+1. 注册 [DeepSeek](https://platform.deepseek.com/) 账号，获取 API Key
+2. 复制配置模板：
+   ```bash
+   cp .env.example .env
+   ```
+3. 编辑 `.env`，填入你的 Key：
+   ```
+   TAROT_AI_API_KEY=sk-xxxxxxxxxxxxxxxx
+   ```
 
-无 API key 时自动使用离线基础解读。
+> **提示**：无 API Key 时自动使用离线基础解读，无需配置也能体验完整功能。
 
 ## 测试
 
