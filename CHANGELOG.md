@@ -1,6 +1,14 @@
 # CHANGELOG — 终端塔罗牌
 
-## v0.7.5 (2026-06-24) — 代码优化
+## v0.7.5 (2026-06-24) — GitHub 发布准备
+
+### 变更
+- **统一版本号** — `pyproject.toml`、`__init__.py`、`main.py` 统一为 0.7.5
+- **pyproject.toml** — 添加 authors、keywords、classifiers、project.urls
+- **README.md** — 完整 GitHub 文档（特性、截图、快速开始、快捷键、AI配置、项目结构、技术栈）
+- **LICENSE** — 添加 MIT 协议
+- **.github/workflows/ci.yml** — GitHub Actions CI（Python 3.10-3.13）
+- **.gitignore** — 允许 images/ 目录提交截图
 
 ### 优化
 - **ai_reader.py** — 提取 `_build_card_info()` 和 `_build_prompt()` 方法，消除 `read()`/`read_stream()` 之间约 30 行重复代码
