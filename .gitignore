@@ -37,5 +37,5 @@ htmlcov/
 Thumbs.db
 
 # 项目特定文件
-images/
+# images/  # 允许截图提交
 *.log
