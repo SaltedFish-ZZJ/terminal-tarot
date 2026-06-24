@@ -43,10 +43,11 @@ python main.py --help       # 查看帮助
 
 ## AI 解读
 
-在项目根目录创建 `.env` 文件：
+复制配置文件并填入你的 API Key：
 
-```
-TAROT_AI_API_KEY=your_deepseek_api_key
+```bash
+cp .env.example .env
+# 编辑 .env，填入 TAROT_AI_API_KEY
 ```
 
 无 API key 时自动使用离线基础解读。
