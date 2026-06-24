@@ -25,15 +25,12 @@
 
 ## 📸 截图
 
-<!-- 请添加你的截图，格式如下：-->
-<!--
 <p align="center">
-  <img src="images/xxx.png" width="600" alt="描述">
+  <img src="images/Snipaste_2026-06-24_19-15-07.png" width="600" alt="主菜单">
 </p>
--->
 
 <p align="center">
-  <em>✨ 欢迎添加截图展示 ✨</em>
+  <img src="images/Snipaste_2026-06-24_19-15-24.png" width="600" alt="占卜结果">
 </p>
 
 ## 🚀 快速开始
